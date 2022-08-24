@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+div~img,
+#outlier {
+    width: 64px;
+    height: 64px;
+}
+
+.navigation-menu {
+    width: 100%;
+    padding: 20px;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+}
+
+.navigation-menu ul li a,
+.publications {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+h4 {
+    color: rgb(83, 100, 113);
+}
+
+.navigation-menu ul li:hover,
+.publications:hover {
+    background-color: rgb(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+
+.statistics a {
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+
+.statistics li a span:nth-child(1) {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.statistics a:hover {
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.action a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.reply:hover:first-child {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.share:hover:last-child {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.heart:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.post:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+#nameOntweet,
+#friendName {
+    color: rgb(15, 20, 25);
+}
+
+#bio {
+    color: rgb(15, 20, 25);
+}
+
+#friendNick,
+#dateTweetMy,
+#dateTweetFriend,
+#nickOntweet {
+    color: rgb(83, 100, 113);
+}
