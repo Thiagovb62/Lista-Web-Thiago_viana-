@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
+button {
+    padding: 10px 5px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aquamarine;
+    border-radius: 5px;
+    min-width: 50px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+button::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(98deg, transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: translatex(-120px) skew(-20deg)
+}
+
+button:hover::before {
+    transform: translatex(300px) skew(-20deg);
+}
+
+button:hover::before {
+    background-color: gold;
+}
+
 body {
     background-color: white;
     color: rgb(15, 20, 25);
@@ -13,11 +53,21 @@ div~img,
 #outlier {
     width: 64px;
     height: 64px;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+#tzeet-icon {
+    width: 32px;
 }
 
 .navigation-menu {
     width: 100%;
     padding: 20px;
+}
+
+.navigation-menu img {
+    width: 20px;
 }
 
 .navigation-menu ul {
@@ -45,6 +95,10 @@ h4 {
     color: rgb(83, 100, 113);
 }
 
+.statistics a img {
+    width: 20px;
+}
+
 .statistics li a span:nth-child(1) {
     color: rgb(15, 20, 25);
     font-weight: bold;
@@ -57,6 +111,10 @@ h4 {
 .action a {
     color: rgb(83, 100, 113);
     text-decoration: none;
+}
+
+.action img {
+    width: 20px;
 }
 
 .reply:hover:first-child {
@@ -88,7 +146,7 @@ h4 {
 }
 
 .post:hover {
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(249, 24, 128, 0.1);
     border-radius: 10px;
 }
 
