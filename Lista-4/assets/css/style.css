@@ -1,0 +1,243 @@
+body {
+    background-color: floralwhite;
+    color: rgb(15, 20, 25)
+}
+.modalW{
+        width: 100%;
+}
+
+.plus:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 25px;
+}
+
+.image:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 140px;
+}
+
+.gif:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+}
+
+.emoji:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 40px;
+}
+
+.grafico:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+}
+
+.calendario:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+}
+
+.localizacao:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+}
+
+
+#tzeet-icon {
+    display: inline-block;
+    width: 32px;
+    background-color: paleturquoise;
+    border-radius: 10px;
+    border-width: 50px;
+}
+.navigation a,
+.publications {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.navigation a span:hover,
+.publications a:hover {
+    background-color: skyblue;
+    border-radius: 8px;
+}
+
+.btn-tzeet {
+    display: inline-block;
+}
+
+.my_profile {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    padding: 10px 5px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aquamarine;
+    min-width: 50px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+button {
+    margin-left: auto;
+    margin-top: auto;
+    padding: 8px;
+    height: 30px;
+}
+
+button::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(98deg, transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: translatex(-120px) skew(-20deg)
+}
+
+button:hover::before {
+    transform: translatex(300px) skew(-20deg);
+}
+
+button:hover::before {
+    background-color: firebrick;
+}
+
+.main {
+    border-left: 1px solid rgba(83, 100, 113, 0.719);
+    border-right: 1px solid rgb(83, 100, 113, 0.719);
+}
+
+.publications {
+    box-shadow: 0px 1px 1px rgba(83, 100, 113, 0.596);
+}
+
+.FriendshipList-recomedation {
+    background-color: rgb(239, 243, 244);
+    border-radius: 10px;
+    display: flexbox;
+}
+
+.publications a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.statistics a span {
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+
+.statistics span {
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+
+.statistics a {
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+
+.statistics a:hover {
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.action a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.edit-profile {
+    text-align: right;
+}
+
+.chat {
+    border-top: 1px solid rgba(83, 100, 113, 0.719);
+}
+
+.reply:hover:first-child {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.share:hover:last-child {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.heart:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(83, 100, 113);
+}
+
+.post:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    border-radius: 10px;
+}
+
+.name {
+    color: rgb(15, 20, 25);
+    font-weight: lighter;
+}
+
+#nickname {
+    color: rgb(83, 100, 113);
+}
+
+#bio {
+    color: rgb(15, 20, 25);
+}
+
+#bio {
+    color: rgb(15, 20, 25);
+}
+
+#nickOnTweetFriend,
+#myNickOntweet,
+#dateTweetMy,
+#dateTweetFriend,
+#nickOnTweet {
+    color: rgb(83, 100, 113);
+}
+
+.active.charCount {
+    color: rgb(255, 200, 0);
+}
+
+.error.charCount {
+    color: rgb(255, 0, 0)
+}
+
+.active.charCount2 {
+    color: rgb(255, 200, 0);
+}
+
+.error.charCount2 {
+    color: rgb(255, 0, 0)
+}
