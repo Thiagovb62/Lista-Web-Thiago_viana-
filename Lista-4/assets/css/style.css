@@ -7,38 +7,38 @@ body {
 }
 
 .plus:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 25px;
+    background-color: rgb(29, 155, 240,0.1);
+    border-radius: 8px;
 }
 
 .image:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 140px;
+    background-color: rgb(29, 155, 240,0.1);
+    border-radius: 8px;
 }
 
 .gif:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 10px;
+    background-color: rgb(29, 155, 240,0.1);
+    border-radius: 8px;
 }
 
 .emoji:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 40px;
+    background-color: rgb(29, 155, 240,0.1);
+    border-radius: 8px;
 }
 
 .grafico:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 10px;
+    background-color: rgb(29, 155, 240),0.1;
+    border-radius: 8px;
 }
 
 .calendario:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 10px;
+    background-color: rgb(29, 155, 240,0.1);
+    border-radius: 8px;
 }
 
 .localizacao:hover{
-    background-color: rgb(29, 155, 240);
-    border-radius: 10px;
+    background-color: rgb(29, 155, 240, 0.1);
+    border-radius: 8px;
 }
 
 
