@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzeeter</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="assets/css/loginStyle.css">
+</head>
+
+<body>
+    <div class="alignment">
+        <div class="card card-login container" style="width: 26rem;">
+            <form class="form-login needs-validation" novalidate>
+                <img src="assets/images/twitter.svg" width="30" alt="imagem do twitter" />
+                <h4>Entre no Tzeet agora mesmo</h4>
+                <div class="form-floating mb-3">
+                    <input  type="email" class="form-control" id="Email"
+                        placeholder="name@example.com" required>
+                    <label for="Email"><strong>Email:</strong></label>
+                    <div class="invalid-feedback">
+                        Informe um e-mail válido.
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="Password" placeholder="Password"
+                        minlength="6" required>
+                    <label for="Password"><strong>Senha:</strong></label>
+                </div>
+                <div class="d-flex row">
+                    <a class="mb-4" href="#">Esqueceu a senha?</a>
+                    <button type="submit" class="btn btn-primary btn-sm mb-2" id="btn-submitForm" disabled>Entrar</button>
+                    <h6>Não tem uma conta?<a href="singup.html">Inscreva-se</a></h6>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+crossorigin="anonymous"></script>
+
+<script src="assets/js/login.js"></script>
+</body>
+</html>
+</html>

@@ -1,0 +1,77 @@
+.tzeet{
+    text-align: center;
+}
+  .alignment {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(80, 80, 80);
+  }
+  .card-login {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .form-login img {
+    padding-top: 15px;
+    margin: auto;
+    display: block;
+  }
+  .form-login  button {
+    margin-top: 20px;
+    margin-left: 1rem;
+    border-radius: 15px;
+    width: 24rem;
+  }
+  .form-login h6 {
+    padding-bottom: 15px;
+  }
+  .fundo {
+    background-color: rgb(36, 35, 35);
+  }
+  
+button {
+    padding: 10px 5px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aquamarine;
+    min-width: 50px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+button {
+    margin-left: auto;
+    margin-top: auto;
+    padding: 8px;
+    height: 30px;
+}
+
+button::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(98deg, transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: translatex(-120px) skew(-20deg)
+}
+
+button:hover::before {
+    transform: translatex(300px) skew(-20deg);
+}
+
+button:hover::before {
+    background-color: firebrick;
+}
+

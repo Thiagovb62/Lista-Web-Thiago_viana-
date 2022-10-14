@@ -1,0 +1,36 @@
+.alignment {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(80, 80, 80);
+  }
+  .form-cadastro{
+    font-size: small;
+  }
+  .form-cadastro button{
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 24rem;
+  }
+  .selects{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .register{
+    border-top: 1 solid;
+  }
+  #comment{
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+  }
+  .title{
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .title a{
+   text-decoration: none;
+   font-size: large;
+   margin-top: 15px;
+   color: rgb(24, 24, 24);
+  }
